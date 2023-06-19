@@ -1,6 +1,7 @@
 # Borneo - Exploration du réseau de bornes de recharge électrique et impact environnemental
-
+    Je suis preneuse si vous avez des dataset qui pourrait m'aider pour ameliorer mon projet :) aussi !
 Le projet Borneo est une application de visualisation et d'exploration des données sur les bornes de recharge électrique en France, ainsi que de leur impact environnemental en termes d'émissions de CO2. 
+Ce projet s'incrit dans le cadre de mon cours de Business intelligence dispensé par Monsieur Mano MATHEW à l'Efrei Paris.
 
 L'objectif principal du projet est de fournir aux utilisateurs une vue d'ensemble des infrastructures de recharge électrique disponibles, ainsi que des informations sur les émissions de CO2 associées à ces infrastructures.
 
@@ -25,3 +26,4 @@ L'objectif principal du projet est de fournir aux utilisateurs une vue d'ensembl
 - Base de données : Les données sur les bornes de recharge électrique et les émissions de CO2 sont stockées dans une base de données pour permettre une récupération et une analyse efficaces.
 
 Le projet Borneo vise à fournir aux utilisateurs une plateforme conviviale pour explorer les données sur les bornes de recharge électrique en France et comprendre leur impact environnemental. Il permet aux utilisateurs de prendre des décisions éclairées en matière de mobilité électrique et de contribuer à la transition vers des modes de transport plus durables.
+# Msc DATA MANAGEMENT | #bidatagovpsbefrei2023
