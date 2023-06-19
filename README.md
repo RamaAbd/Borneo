@@ -1,5 +1,6 @@
 # Borneo - Exploration du réseau de bornes de recharge électrique et impact environnemental
-     Ce projet fait partie de mon cours sur l'intelligence économique dispensé par Monsieur Mano MATHEW à l'Efrei Paris. Je serais intéressé(e) si vous disposez de jeux de données pouvant m'aider à améliorer mon projet. 😊
+     Ce projet fait partie de mon cours sur l'intelligence économique dispensé par Monsieur Mano MATHEW à l'Efrei Paris. 
+     Je serais intéressé(e) si vous disposez de jeux de données pouvant m'aider à améliorer mon projet. 😊
 
 
 📍 Le projet Borneo est une application de visualisation et d'exploration des données sur les bornes de recharge électrique en France, ainsi que de leur impact environnemental en termes d'émissions de CO2. 
