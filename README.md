@@ -18,7 +18,7 @@
 🌎 - **Analyse des émissions de CO2** : L'application met également en relation les données sur les bornes de recharge avec les émissions de CO2 par pays. Les utilisateurs peuvent explorer les graphiques montrant l'évolution des émissions de CO2, comparer les différentes régions et prendre des décisions éclairées en faveur d'une mobilité plus durable.
 
 ## Technologies utilisées
-La liste est exaustives, mais vous les retrouverez dans fichier streamlit.py, Voici quelqu'une d'entre-elles
+La liste est exaustive, mais vous les retrouverez dans le fichier streamlit.py, en voici quelqu'unes
 - Python : Le langage de programmation utilisé pour développer l'application.
 - Streamlit : Un framework de développement d'applications web en Python, utilisé pour créer l'interface utilisateur et la visualisation des données.
 - Pandas : Une bibliothèque Python pour la manipulation et l'analyse des données.
