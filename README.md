@@ -1,12 +1,10 @@
-# Borneo - Exploration du réseau de bornes de recharge électrique et impact environnemental
+# 📍 Borneo - Exploration du réseau de bornes de recharge électrique et impact environnemental
      Ce projet fait partie de mon cours de Business Intelligence dispensé par Monsieur Mano MATHEW à l'Efrei Paris. 
      Je serais intéressé(e) si vous disposez de jeux de données pouvant m'aider à améliorer mon projet. 😊
 
+Le projet Borneo est une application de visualisation et d'exploration des données sur les bornes de recharge électrique en France, ainsi que de leur impact environnemental en termes d'émissions de CO2. 
 
-📍 Le projet Borneo est une application de visualisation et d'exploration des données sur les bornes de recharge électrique en France, ainsi que de leur impact environnemental en termes d'émissions de CO2. 
-
-
-🎯L'objectif principal du projet est de fournir aux utilisateurs une plateforme conviviale pour explorer les données sur les bornes de recharge électrique en France et comprendre leur impact environnemental. Il permet aux utilisateurs de prendre des décisions éclairées en matière de mobilité électrique et de contribuer à la transition vers des modes de transport plus durables.
+L'objectif principal du projet est de fournir aux utilisateurs une plateforme conviviale pour explorer les données sur les bornes de recharge électrique en France et comprendre leur impact environnemental. Il permet aux utilisateurs de prendre des décisions éclairées en matière de mobilité électrique et de contribuer à la transition vers des modes de transport plus durables.
 
 ## Fonctionnalités clés
 - **Statistiques clés et Vue d'ensemble** 🔭 : L'application offre une vue d'ensemble des bornes de recharge électrique en France, en mettant l'accent sur leur répartition géographique et leur densité dans différentes régions. Les utilisateurs peuvent accéder à des statistiques clés sur les bornes de recharge, telles que le nombre total de bornes, la répartition des types de prises, les capacités de recharge, etc.
