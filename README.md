@@ -1,5 +1,5 @@
 # Borneo - Exploration du réseau de bornes de recharge électrique et impact environnemental
-     Ce projet fait partie de mon cours sur l'intelligence économique dispensé par Monsieur Mano MATHEW à l'Efrei Paris. 
+     Ce projet fait partie de mon cours de Business Intelligence dispensé par Monsieur **Mano MATHEW** à l'Efrei Paris. 
      Je serais intéressé(e) si vous disposez de jeux de données pouvant m'aider à améliorer mon projet. 😊
 
 
