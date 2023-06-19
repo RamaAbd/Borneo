@@ -8,9 +8,7 @@ Ce projet s'incrit dans le cadre de mon cours de Business intelligence dispensé
 ## Fonctionnalités clés
 Le projet Borneo vise à fournir aux utilisateurs une plateforme conviviale pour explorer les données sur les bornes de recharge électrique en France et comprendre leur impact environnemental. Il permet aux utilisateurs de prendre des décisions éclairées en matière de mobilité électrique et de contribuer à la transition vers des modes de transport plus durables.
 
-🔭 - **Vue d'ensemble**: L'application offre une vue d'ensemble des bornes de recharge électrique en France, en mettant l'accent sur leur répartition géographique et leur densité dans différentes régions.
-
-  - **Statistiques clés** : Les utilisateurs peuvent accéder à des statistiques clés sur les bornes de recharge, telles que le nombre total de bornes, la répartition des types de prises, les capacités de recharge, etc.
+🔭 - **Statistiques clés et Vue d'ensemble**: L'application offre une vue d'ensemble des bornes de recharge électrique en France, en mettant l'accent sur leur répartition géographique et leur densité dans différentes régions. Les utilisateurs peuvent accéder à des statistiques clés sur les bornes de recharge, telles que le nombre total de bornes, la répartition des types de prises, les capacités de recharge, etc.
 
 📊 - **Visualisations interactives** : L'application propose des graphiques et des visualisations interactives permettant d'explorer les données sur les bornes de recharge et les émissions de CO2. Les utilisateurs peuvent filtrer les données, zoomer, survoler les éléments pour obtenir des informations détaillées, etc.
 
@@ -19,7 +17,7 @@ Le projet Borneo vise à fournir aux utilisateurs une plateforme conviviale pour
 🌎 - **Analyse des émissions de CO2** : L'application met également en relation les données sur les bornes de recharge avec les émissions de CO2 par pays. Les utilisateurs peuvent explorer les graphiques montrant l'évolution des émissions de CO2, comparer les différentes régions et prendre des décisions éclairées en faveur d'une mobilité plus durable.
 
 ## Technologies utilisées
-
+La liste est exaustives, mais vous les retrouverez dans fichier streamlit.py, Voici quelqu'une d'entre-elles
 - Python : Le langage de programmation utilisé pour développer l'application.
 - Streamlit : Un framework de développement d'applications web en Python, utilisé pour créer l'interface utilisateur et la visualisation des données.
 - Pandas : Une bibliothèque Python pour la manipulation et l'analyse des données.
