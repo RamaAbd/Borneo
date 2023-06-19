@@ -13,11 +13,11 @@
 
 - **Visualisations interactives**📊 : L'application propose des graphiques et des visualisations interactives permettant d'explorer les données sur les bornes de recharge et les émissions de CO2. Les utilisateurs peuvent filtrer les données, zoomer, survoler les éléments pour obtenir des informations détaillées, etc.
 
-- **Recherche de bornes de recharge** 🔍: Les utilisateurs peuvent utiliser leur adresse pour trouver les bornes de recharge les plus proches de leur emplacement. Cela leur permet de planifier leurs trajets en tenant compte des options de recharge disponibles.
+- **Recherche de bornes de recharge** 🔍 : Les utilisateurs peuvent utiliser leur adresse pour trouver les bornes de recharge les plus proches de leur emplacement. Cela leur permet de planifier leurs trajets en tenant compte des options de recharge disponibles.
 
-🌎 - **Analyse des émissions de CO2** : L'application met également en relation les données sur les bornes de recharge avec les émissions de CO2 par pays. Les utilisateurs peuvent explorer les graphiques montrant l'évolution des émissions de CO2, comparer les différentes régions et prendre des décisions éclairées en faveur d'une mobilité plus durable.
+- **Analyse des émissions de CO2** 🌎 : L'application met également en relation les données sur les bornes de recharge avec les émissions de CO2 par pays. Les utilisateurs peuvent explorer les graphiques montrant l'évolution des émissions de CO2, comparer les différentes régions et prendre des décisions éclairées en faveur d'une mobilité plus durable.
 
-## Technologies utilisées
+## 👉 Technologies utilisées
 La liste est exaustive, mais vous les retrouverez dans le fichier streamlit.py, en voici quelqu'unes
 - Python : Le langage de programmation utilisé pour développer l'application.
 - Streamlit : Un framework de développement d'applications web en Python, utilisé pour créer l'interface utilisateur et la visualisation des données.
