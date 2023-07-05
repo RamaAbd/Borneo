@@ -1,24 +1,3 @@
-import streamlit as st
-import pandas as pd
-import geopandas as gpd
-from geopy.geocoders import Nominatim
-from geopy.exc import GeocoderTimedOut
-from geopy.distance import geodesic
-import folium
-from folium.plugins import HeatMap
-from streamlit_folium import folium_static
-from shapely.geometry import Polygon
-from folium.plugins import MarkerCluster
-import time
-import numpy as np
-from plotly.subplots import make_subplots
-import urllib.request
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-import streamlit.components.v1 as components
-from PIL import Image
-import requests
-
 
 # Charger les données
 def load_data():
