@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 import geopandas as gpd
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
