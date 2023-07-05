@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+pip! install geopandas
 import geopandas as gpd
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
