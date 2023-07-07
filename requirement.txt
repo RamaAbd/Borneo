@@ -1,5 +1,5 @@
 streamlit
-geopandas 1.8.19 
+geopandas == 1.8.19 
 pandas
 folium
 streamlit-folium
