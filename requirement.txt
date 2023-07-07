@@ -1,1 +1,9 @@
-geopandas
+streamlit
+pandas
+folium
+streamlit-folium
+shapely
+plotly
+wordcloud
+matplotlib
+Pillow
