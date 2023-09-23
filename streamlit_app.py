@@ -3,9 +3,6 @@ import streamlit as st
 import pandas as pd
 import time
 import time
-from streamlit_folium import folium_static
-from shapely.geometry import Polygon
-from folium.plugins import MarkerCluster
 import time
 import numpy as np
 from plotly.subplots import make_subplots
