@@ -2,20 +2,6 @@
 import streamlit as st
 import pandas as pd
 
-import folium
-from folium.plugins import HeatMap, MarkerCluster
-from streamlit_folium import folium_static
-from shapely.geometry import Polygon
-import time
-import numpy as np
-from plotly.subplots import make_subplots
-import urllib.request
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-import streamlit.components.v1 as components
-from PIL import Image
-import requests
-
 # Charger les données
 def load_data():
     data_region = pd.read_csv("https://www.data.gouv.fr/fr/datasets/r/dbe8a621-a9c4-4bc3-9cae-be1699c5ff25", usecols=['code_commune_INSEE', 'nom_commune', 'nom_departement', 'nom_region'])
