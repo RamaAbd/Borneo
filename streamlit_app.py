@@ -1,6 +1,8 @@
 
 import streamlit as st
 import pandas as pd
+import time
+import time
 
 # Charger les données
 def load_data():
