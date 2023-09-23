@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import time
 import time
-import plotly.graph_objects as go
 import plotly.express as px
 from folium.plugins import HeatMap
 from streamlit_folium import folium_static
