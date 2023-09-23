@@ -1,6 +1,7 @@
 
 import streamlit as st
 import pandas as pd
+geopy==2.2.0
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 from geopy.distance import geodesic
