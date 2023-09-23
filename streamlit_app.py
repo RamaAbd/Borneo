@@ -93,25 +93,25 @@ if menu == "Accueil":
     st.write("Explorez le réseau de bornes de recharge pour véhicules électriques en France et découvrez son impact environnemental.")
     
    # Vidéo d'illustration
-    st.video(r"C:\Users\amato\Business_Intelligence\Streamlit\Borneo.mp4", start_time=0)
+    st.video(r"Borneo.mp4", start_time=0)
     import streamlit as st
     from PIL import Image
     import base64
 
     # Charger les icônes
-    with open(r"C:\Users\amato\Business_Intelligence\Streamlit\icons8-home-24.png", "rb") as f:
+    with open(r"icons8-home-24.png", "rb") as f:
         icon_home = base64.b64encode(f.read()).decode()
 
-    with open(r"C:\Users\amato\Business_Intelligence\Streamlit\icons8-bar-chart-24.png", "rb") as f:
+    with open(r"icons8-bar-chart-24.png", "rb") as f:
         icon_dashboard = base64.b64encode(f.read()).decode()
 
-    with open(r"C:\Users\amato\Business_Intelligence\Streamlit\icons8-co2-24.png", "rb") as f:
+    with open(r"icons8-co2-24.png", "rb") as f:
         icon_co2 = base64.b64encode(f.read()).decode()
 
-    with open(r"C:\Users\amato\Business_Intelligence\Streamlit\icons8-charging-station-24.png", "rb") as f:
+    with open(r"icons8-charging-station-24.png", "rb") as f:
         icon_find_station = base64.b64encode(f.read()).decode()
 
-    with open(r"C:\Users\amato\Business_Intelligence\Streamlit\icons8-backhand-index-pointing-left-24.png", "rb") as f:
+    with open(r"icons8-backhand-index-pointing-left-24.png", "rb") as f:
         icon_left = base64.b64encode(f.read()).decode()
 
     # Afficher le texte avec les icônes
