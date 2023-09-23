@@ -1,15 +1,12 @@
 
 import streamlit as st
 import pandas as pd
-geopy==2.2.0
-from geopy.geocoders import Nominatim
-from geopy.exc import GeocoderTimedOut
+from geopy.geocoders import Nominatim, GeocoderTimedOut
 from geopy.distance import geodesic
 import folium
-from folium.plugins import HeatMap
+from folium.plugins import HeatMap, MarkerCluster
 from streamlit_folium import folium_static
 from shapely.geometry import Polygon
-from folium.plugins import MarkerCluster
 import time
 import numpy as np
 from plotly.subplots import make_subplots
