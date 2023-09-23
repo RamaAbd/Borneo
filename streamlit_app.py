@@ -7,6 +7,7 @@ import time
 import numpy as np
 import urllib.request
 from PIL import Image
+import matplotlib.pyplot as plt
 import requests
 # Charger les données
 def load_data():
