@@ -1,6 +1,7 @@
 
 import streamlit as st
 import pandas as pd
+pip install geopy
 from geopy.geocoders import Nominatim, GeocoderTimedOut
 from geopy.distance import geodesic
 import folium
