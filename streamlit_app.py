@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import time
 import time
-from folium.plugins import HeatMap
 from streamlit_folium import folium_static
 from shapely.geometry import Polygon
 from folium.plugins import MarkerCluster
