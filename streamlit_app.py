@@ -7,7 +7,6 @@ import time
 import numpy as np
 import urllib.request
 from PIL import Image
-import plotly.graph_objects as go
 import requests
 # Charger les données
 def load_data():
