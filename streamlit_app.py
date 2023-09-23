@@ -6,8 +6,6 @@ import time
 import time
 import numpy as np
 import urllib.request
-import matplotlib.pyplot as plt
-import streamlit.components.v1 as components
 from PIL import Image
 import requests
 # Charger les données
