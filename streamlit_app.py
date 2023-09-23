@@ -172,51 +172,42 @@ elif menu == "Dashboard":
     # Couleur utilisée dans le graphe d'évolution par années pour les points de charge
     pdc_color = 'rgb(255, 101 ,0)'
 
-    # Création du compteur 1 (Total des stations de recharge de VE) avec la couleur correspondante
-    fig1 = go.Figure(go.Indicator(
-        mode="number",
-        value=nombre_stations_france,
-        title={'text': "Stations de recharge pour VE", 'font': {'color': stations_color}},
-        number={'suffix': " stations", 'font': {'color': stations_color}},
-        number_font={'size': 20, 'family': 'Arial'},
-        title_font={'size': 15, 'family': 'Arial'},
-    ))
-    fig1.update_layout(height=130)
-
+     # Création du compteur 1 (Total des stations de recharge de VE) avec la couleur correspondante
+    fig1, ax1 = plt.subplots()
+    ax1.text(0.5, 0.5, str(nombre_stations_france) + " stations", size=20, ha='center', va='center', color=stations_color)
+    ax1.set_title("Stations de recharge pour VE")
+    ax1.axis('off')
+    
     # Création du compteur 2 (Total EV Charging Points) avec la couleur correspondante
-    fig2 = go.Figure(go.Indicator(
-        mode="number",
-        value=nombre_pdc_france,
-        title={'text': "Points de charge pour VE", 'font': {'color': pdc_color}},
-        number={'suffix': " points", 'font': {'color': pdc_color}},
-        number_font={'size': 20, 'family': 'Arial'},
-        title_font={'size': 15, 'family': 'Arial'},
-    ))
-    fig2.update_layout(height=130)
-
+    fig2, ax2 = plt.subplots()
+    ax2.text(0.5, 0.5, str(nombre_pdc_france) + " points", size=20, ha='center', va='center', color=pdc_color)
+    ax2.set_title("Points de charge pour VE")
+    ax2.axis('off')
+    
     # Création du graphique d'évolution par années
     stations_by_year = data_unique_stations.groupby('year').size().reset_index(name='count').astype(int)
-
+    
     pdc_by_year = data_unique_stations.groupby('year')['nbre_pdc'].sum().reset_index(name='sum_pdc')
-    fig3 = go.Figure()
-    fig3.add_trace(go.Scatter(x=stations_by_year['year'], y=stations_by_year['count'], mode='lines+markers', name='EV Charging Stations', marker_color='rgb(43, 140, 190)'))
-    fig3.add_trace(go.Scatter(x=pdc_by_year['year'], y=pdc_by_year['sum_pdc'], mode='lines+markers', name='Charging Points', marker_color='rgb(216, 99, 99)'))
-
-    fig3.update_layout(title='Evolution des stations et points de recharge pour VE par année', xaxis_title='Year', yaxis_title='Count')
-    fig3.update_layout(height=400, width=800)
-
+    
+    fig3, ax3 = plt.subplots()
+    ax3.plot(stations_by_year['year'], stations_by_year['count'], 'o-', label='EV Charging Stations', color='rgb(43, 140, 190)')
+    ax3.plot(pdc_by_year['year'], pdc_by_year['sum_pdc'], 'o-', label='Charging Points', color='rgb(216, 99, 99)')
+    ax3.set_title('Evolution des stations et points de recharge pour VE par année')
+    ax3.set_xlabel('Year')
+    ax3.set_ylabel('Count')
+    ax3.legend()
+    
     # Affichage des compteurs et du graphique
     col1, col2 = st.columns([1, 3])
-
+    
     with col1:
-        st.plotly_chart(fig1, use_container_width=True)
-        st.plotly_chart(fig2, use_container_width=True)
-
+        st.pyplot(fig1, clear_figure=True)
+        st.pyplot(fig2, clear_figure=True)
+    
     with col2:
-        st.plotly_chart(fig3, use_container_width=True)
-
+        st.pyplot(fig3, clear_figure=True)
+    
     st.markdown("<hr style='border:1px solid #f0f0f0'>", unsafe_allow_html=True)
-
    # Afficher la visualisation
     st.subheader("Comparaison de l'évolution du nombre de points de recharge entre régions")
 
