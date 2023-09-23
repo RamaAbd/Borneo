@@ -70,7 +70,7 @@ for i in range(101):
         status_text.text(f"Chargement en cours. Veuillez patienter un instant ⏳... {i}%")
 
 # Charger le logo
-logo = Image.open("C:/Users/amato/Business_Intelligence/Streamlit/Borneo_Logo.png")
+logo = Image.open("Borneo_Logo.png")
 
 # Afficher le logo dans la barre de navigation
 st.sidebar.image(logo, use_column_width=True, width=75)
